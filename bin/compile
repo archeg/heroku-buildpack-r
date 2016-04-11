@@ -7,6 +7,8 @@ set -e
 # debug
 # set -x
 
+apt-get install libiodbc2-dev
+
 shopt -s extglob
 
 function error() {
